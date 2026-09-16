@@ -1,0 +1,22 @@
+# Entornos virtuales  (NO subir venv/ al repositorio: pesa cientos de MB)
+venv/
+env/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Resultados generados por el pipeline
+outputs/*
+!outputs/.gitkeep
+reports/
+*.log
+
+# Editores y sistema operativo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

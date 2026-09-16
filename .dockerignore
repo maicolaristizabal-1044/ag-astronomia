@@ -1,0 +1,14 @@
+venv/
+env/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.git/
+.gitignore
+outputs/
+reports/
+*.log
+*.pdf
+README.md
+Jenkinsfile
