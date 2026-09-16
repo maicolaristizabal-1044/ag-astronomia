@@ -88,13 +88,6 @@ pipeline {
                 '''
             }
         }
-
-        stage('Construcción de la imagen Docker') {
-            steps {
-                echo 'Construyendo la imagen del contenedor...'
-                sh 'docker build -t ag-astronomia:${BUILD_NUMBER} -t ag-astronomia:latest .'
-            }
-        }
     }
 
     post {
